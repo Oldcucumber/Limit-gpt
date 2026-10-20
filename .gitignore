@@ -1,0 +1,12 @@
+.build/
+.playwright-cli/
+dist/
+*.dll
+*.so
+*.h
+plugins/*.json
+.env
+.env.*
+!.env.example
+frontend/assets/apimart-en.png
+frontend/assets/apimart-zh.png

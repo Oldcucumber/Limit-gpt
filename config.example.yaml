@@ -1,0 +1,13 @@
+# Merge into your existing CPA v8 configuration.
+management:
+  disable-auto-update-panel: true
+
+plugins:
+  enabled: true
+  dir: "plugins"
+  configs:
+    limit-gpt:
+      enabled: true
+      state_file: "plugins/limit-gpt.json"
+      interval_seconds: 60
+      proxy_url: ""
